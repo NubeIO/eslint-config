@@ -1,4 +1,0 @@
-
-> @nubeio/eslint-config@0.1.0 lint /Users/riteshakya/Projects/nubeIO/flex/tooling/eslint
-> eslint . "--fix" "--cache" "--cache-location" "node_modules/.cache/.eslintcache"
-
