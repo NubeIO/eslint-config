@@ -13,6 +13,9 @@ const config = {
   plugins: ['@typescript-eslint', 'import', 'simple-import-sort', '@stylistic/js'],
   rules: {
     '@typescript-eslint/consistent-type-definitions': 'off',
+    // Note: you must disable the base rule as it can report incorrect errors
+    'max-params': 'off',
+    '@typescript-eslint/max-params': ['error'],
     '@typescript-eslint/consistent-type-imports': [
       'warn',
       { prefer: 'type-imports', fixStyle: 'separate-type-imports' }
