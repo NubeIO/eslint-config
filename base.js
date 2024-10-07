@@ -106,6 +106,7 @@ const config = {
     '**/*.config.cjs',
     '**/.eslintrc.cjs',
     'dist',
+    '**/__mocks__/**',
     'pnpm-lock.yaml'
   ],
   reportUnusedDisableDirectives: true,
