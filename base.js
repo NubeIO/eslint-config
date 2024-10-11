@@ -57,7 +57,8 @@ const config = {
         ignoreReadBeforeAssign: false
       }
     ],
-    'require-await': 'error',
+    '@typescript-eslint/require-await': 'off',
+    'require-await': 'off',
     semi: ['error', 'always'],
     'space-before-blocks': 'error',
     'spaced-comment': ['error', 'always'],
