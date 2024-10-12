@@ -120,7 +120,10 @@ const config = {
         'no-console': 'off',
         '@typescript-eslint/dot-notation': 'off', // Allow access to private variables
         '@typescript-eslint/no-explicit-any': 'off', // Allow to cast to any to spy on private methods
-        '@typescript-eslint/unbound-method': 'off' // Knows when it's ok to pass an unbound method to expect calls
+        '@typescript-eslint/unbound-method': 'off', // Knows when it's ok to pass an unbound method to expect calls
+        '@typescript-eslint/no-unsafe-assignment': 'off', // Allow access to private functions
+        '@typescript-eslint/no-unsafe-call': 'off', // Allow access to private functions
+        '@typescript-eslint/no-unsafe-member-access': 'off' // Allow access to private functions
       }
     }
   ]
