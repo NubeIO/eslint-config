@@ -97,6 +97,14 @@ const config = {
           ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$']
         ]
       }
+    ],
+    // Prefer namespace imports so as to make it tree-shakable https://dev.to/pffigueiredo/making-lodash-tree-shakable-3h27
+    'no-restricted-syntax': [
+      'error',
+      {
+        message: 'Do not import default from lodash-es. Use a namespace import (* as) instead.',
+        selector: 'ImportDeclaration[source.value="lodash-es"] ImportDefaultSpecifier'
+      }
     ]
   },
   ignorePatterns: [
