@@ -89,6 +89,8 @@ const config = {
           ['^.+\\.?(css)$'],
           // `react` related packages.
           ['^react', '^@?\\w'],
+          // `@flex` related packages.
+          ['^@flex', '^@?\\w'],
           // `@nubeio` related packages.
           ['^@nubeio', '^@?\\w'],
           // Absolute imports.
