@@ -81,6 +81,8 @@ const config = {
         next: ['function']
       }
     ],
+    'import/no-namespace': 'error',
+    'import/no-default-export': 'error',
     'simple-import-sort/imports': [
       'warn',
       {
@@ -134,6 +136,12 @@ const config = {
         '@typescript-eslint/no-unsafe-assignment': 'off', // Allow access to private functions
         '@typescript-eslint/no-unsafe-call': 'off', // Allow access to private functions
         '@typescript-eslint/no-unsafe-member-access': 'off' // Allow access to private functions
+      }
+    },
+    {
+      files: ['**/module-entry.ts'],
+      rules: {
+        'import/no-default-export': 'off'
       }
     }
   ]
