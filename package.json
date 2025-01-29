@@ -1,5 +1,5 @@
 {
-  "name": "@nubeio/eslint-config",
+  "name": "@pjnube/eslint-config",
   "version": "0.1.0",
   "private": true,
   "files": [
@@ -20,7 +20,7 @@
     "eslint-plugin-react-hooks": "^4.6.2"
   },
   "devDependencies": {
-    "@nubeio/tsconfig": "workspace:*",
+    "@pjnube/tsconfig": "workspace:*",
     "@stylistic/eslint-plugin-js": "^2.3.0",
     "@types/eslint": "^8.56.6",
     "eslint": "catalog:",
@@ -34,5 +34,5 @@
       "./base.js"
     ]
   },
-  "prettier": "@nubeio/prettier-config"
+  "prettier": "@pjnube/prettier-config"
 }
