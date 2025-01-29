@@ -113,6 +113,7 @@ const config = {
   },
   ignorePatterns: [
     '**/*.config.js',
+    '**/*.script.js',
     '**/*.config.ts',
     '**/*.d.ts',
     '**/*.config.cjs',
