@@ -40,7 +40,12 @@ const config = {
     'no-await-in-loop': 'error',
     'no-console': ['error'],
     'no-multi-spaces': 'error',
-    '@typescript-eslint/no-unused-vars': 'error',
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        argsIgnorePattern: '^_'
+      }
+    ],
     'no-var': 'error',
     'object-curly-spacing': ['error', 'always'],
     'prefer-const': [
