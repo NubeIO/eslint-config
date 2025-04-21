@@ -31,13 +31,6 @@ const config = {
     'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
     'brace-style': 'error',
     camelcase: 'error',
-    'comma-spacing': [
-      'error',
-      {
-        before: false,
-        after: true
-      }
-    ],
     curly: 'error',
     eqeqeq: ['error', 'always'],
     'key-spacing': 'error',
