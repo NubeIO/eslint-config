@@ -1,5 +1,5 @@
 {
-  "extends": "@pjnube/tsconfig/base.json",
+  "extends": "@nubeio/tsconfig/base.json",
   "compilerOptions": {
     "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
   },
