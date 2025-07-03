@@ -113,6 +113,7 @@ const config = {
     '**/*.config.ts',
     '**/*.d.ts',
     '**/*.config.cjs',
+    '**/*.config.mjs',
     '**/.eslintrc.cjs',
     'dist',
     '**/__mocks__/**',
