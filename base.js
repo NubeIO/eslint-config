@@ -80,7 +80,6 @@ const config = {
       }
     ],
     'import/no-namespace': 'error',
-    'import/no-default-export': 'error',
     'simple-import-sort/imports': [
       'warn',
       {
