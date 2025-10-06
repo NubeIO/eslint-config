@@ -89,6 +89,8 @@ const config = {
           ['^.+\\.?(css)$'],
           // `react` related packages.
           ['^react', '^@?\\w'],
+          // `@pjnube` related packages.
+          ['^@pjnube', '^@?\\w'],
           // `@flex` related packages.
           ['^@flex', '^@?\\w'],
           // Absolute imports.
