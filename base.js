@@ -15,7 +15,7 @@ const config = {
     '@typescript-eslint/consistent-type-definitions': 'off',
     // Note: you must disable the base rule as it can report incorrect errors
     'max-params': 'off',
-    '@typescript-eslint/max-params': ['error'],
+    '@typescript-eslint/max-params': ['warn'],
     '@typescript-eslint/consistent-type-imports': [
       'warn',
       { prefer: 'type-imports', fixStyle: 'separate-type-imports' }
@@ -89,6 +89,8 @@ const config = {
           ['^.+\\.?(css)$'],
           // `react` related packages.
           ['^react', '^@?\\w'],
+          // `@pjnube` related packages.
+          ['^@pjnube', '^@?\\w'],
           // `@flex` related packages.
           ['^@flex', '^@?\\w'],
           // Absolute imports.
